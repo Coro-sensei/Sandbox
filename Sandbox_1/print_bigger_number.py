@@ -3,3 +3,4 @@
 num1 = float(input("Enter First Number: "))
 num2 = float(input("Enter Second Number: "))
 # Print bigger number
+print (max(num1, num2))
