@@ -3,3 +3,4 @@
 num1 = float(input("Enter the First Number: "))
 num2 = float(input("Enter the Second Number: "))
 # Print the quotient of the number with decimal point.
+print ("The quotient of the two numbers:  ", (num1 / num2))
