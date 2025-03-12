@@ -12,4 +12,4 @@ for i in range(10):
         even_counter += 1 # Keep track of count
 
 # Print how many even numbers
-print(even_counter)
+print("Here is how many even in the set of ten numbers:", (even_counter))
