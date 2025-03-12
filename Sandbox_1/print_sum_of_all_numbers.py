@@ -11,4 +11,5 @@ for i in range (10):
 
 
 #  Print the sum of the ten numbers
+
 print (sum_counter)
