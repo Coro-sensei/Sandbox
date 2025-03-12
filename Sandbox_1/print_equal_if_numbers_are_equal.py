@@ -3,3 +3,7 @@
 num1 = float(input("Enter the First Number: "))
 num2 = float(input("Enter the Second Number: "))
 # Print if the numbers are equal
+if num1 == num2: 
+    print("Numbers are Equal: ")
+else:
+    print("Not Equal: ")
