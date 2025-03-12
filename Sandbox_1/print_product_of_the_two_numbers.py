@@ -4,4 +4,4 @@
 num1 = float(input("Enter the First Number: "))
 num2 = float(input("Enter the Second Number: "))
 # Print the product of the two numbers 
-print("The sum of these numbers:", (num1 * num2))
+print("The product of these numbers:", (num1 * num2))
