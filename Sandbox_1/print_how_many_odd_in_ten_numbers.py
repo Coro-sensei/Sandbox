@@ -7,7 +7,7 @@ odd_counter = 0
 # Input ten numbers
 
 for odd in range(10):
-    num = float(input("Enter the Number: ")) 
+    num = float(input("Enter a Number: ")) 
     
     if num % 2 != 0: # Check the remainder if the number is odd
         odd_counter += 1
