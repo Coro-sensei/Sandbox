@@ -2,7 +2,7 @@
 
 # Initiate counter
 
-num_counter = []
+num_counter = 0
 
 # Input ten numbers
 
