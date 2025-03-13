@@ -5,5 +5,9 @@
 num1 = float(input("Enter First Number: "))
 num2 = float(input("Enter Second Number: "))
 
-
 # Print remainder of the first number and second number
+
+if num2 != 0:
+    remainder = num1 % num2
+    print("Remainder: ", remainder)
+    
