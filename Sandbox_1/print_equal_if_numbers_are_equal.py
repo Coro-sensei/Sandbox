@@ -9,5 +9,3 @@ num2 = float(input("Enter the Second Number: "))
 
 if num1 == num2: 
     print("Numbers are Equal: ")
-else:
-    print("Not Equal: ")
