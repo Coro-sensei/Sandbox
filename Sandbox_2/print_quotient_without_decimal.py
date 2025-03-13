@@ -7,4 +7,4 @@ num2 = int(input("Enter Second Number: "))
 
 # Print the quotient 
 
-print("The quotient of the two numbers: ", (num1 / num2))
+print("The quotient of the two numbers: ", (num1 // num2))
