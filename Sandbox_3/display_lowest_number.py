@@ -12,5 +12,9 @@ while True:
             numbers.append(num) # Adds number to the variable numbers
         else:
             break # Stop at the invalid input
-        
+
 # Print lowest number
+if numbers:
+        print("The lowest number:", min(numbers))
+else:
+    print("No valid numbers, stopping the program.")
