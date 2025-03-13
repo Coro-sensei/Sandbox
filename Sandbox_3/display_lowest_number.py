@@ -7,7 +7,10 @@ numbers = 0
 # Input a number, continue until invalid
 
 while True:
-    num = float(input("Input a number (to stop input non-numeric input): "))
-    numbers.append(num) # Adds number to the variable numbers
-
+        num = float(input("Input a number (to stop input non-numeric input): "))
+        if num.replace('.','',1).isdigit(): # Check for valid number
+            numbers.append(num) # Adds number to the variable numbers
+        else:
+            break # Stop at the invalid input
+        
 # Print lowest number
