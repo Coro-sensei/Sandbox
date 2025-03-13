@@ -12,6 +12,7 @@ for i in range(10):
     numbers.append(num)
 
 # Unique numbers checker 
-
+unique = [num for num in numbers if numbers.count(num) == 1]
 
 # Print all numbers that don't duplicate
+print("These are the unique numbers: ", unique)
