@@ -14,3 +14,9 @@ while True:
         break  # Stop when the user enters an invalid input
 
 # Print lowest to highest with sort() function
+
+if numbers:
+    numbers.sort()
+    print("Numbers from lowest to highest:", numbers)
+else:
+    print("No valid numbers, stopping the program.")
