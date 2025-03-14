@@ -1,17 +1,18 @@
 # Create a program that ask user to input a number, continue asking until the user input is invalid. Display the lowest number
 
-# Initialize th variable to zero
+# Initialize the variable to list
 
-numbers = 0
+numbers = []
 
 # Input a number, continue until invalid
 
 while True:
-        num = float(input("Input a number (to stop input non-numeric input): "))
-        if num.replace('.','',1).isdigit(): # Check for valid number
-            numbers.append(num) # Adds number to the variable numbers
-        else:
-            break # Stop at the invalid input
+    try:
+        num = float(input("Input a number (to stop, input non-numeric value): "))
+        numbers.append(num)  # Add number to the list
+    except ValueError:
+        print("Stopping input...")
+        break  # Stop when the user enters an invalid input
 
 # Print lowest number
 if numbers:
