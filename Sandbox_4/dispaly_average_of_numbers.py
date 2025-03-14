@@ -14,4 +14,10 @@ while True:
         print("Stopping input...")
         break  # Stop when the user enters an invalid input
 
-# Print average
+# Calculate and print average
+
+if numbers:
+    average = sum(numbers) / len(numbers)
+    print("Average of entered numbers:", average)
+else:
+    print("No valid numbers entered.")
