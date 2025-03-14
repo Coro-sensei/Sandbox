@@ -1,9 +1,9 @@
 # Create a program that ask user to input 10 numbers. Display all numbers that don't have duplicate.
 
 
-# Initialize variable to zero
+# Initialize variable to list
 
-numbers = 0
+numbers = []
 
 # Input 10 numbers
 
