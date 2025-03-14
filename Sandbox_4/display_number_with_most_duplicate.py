@@ -15,3 +15,13 @@ while True:
         break  # Stop when the user enters an invalid input
 
 # Print number with the most duplicate
+
+if numbers:
+    frequency = {}  # Dictionary to count occurrences
+    for num in numbers:
+        frequency[num] = frequency.get(num, 0) + 1
+    
+    most_common = max(frequency, key=frequency.get)  # Get the most frequent number
+    print("Number with the most duplicates:", most_common)
+else:
+    print("No valid numbers entered.")
