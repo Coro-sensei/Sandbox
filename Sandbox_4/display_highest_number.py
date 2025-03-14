@@ -14,5 +14,9 @@ while True:
         print("Stopping input...")
         break  # Stop when the user enters an invalid input
 
-
 # Print the highest number 
+
+if numbers:
+    print("The highest number:", max(numbers))
+else:
+    print("No valid numbers entered.")
