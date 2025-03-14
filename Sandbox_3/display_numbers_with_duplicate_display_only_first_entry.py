@@ -4,6 +4,7 @@
 
 numbers = []
 unique_numbers = []
+
 # Input ten numbers
 
 for i in range(10):
@@ -13,3 +14,5 @@ for i in range(10):
     numbers.append(num)
 
 # Print ten number, for duplicates display the first entry of that number
+
+print("Numbers entered (only first entry are kept): ", unique_numbers)
