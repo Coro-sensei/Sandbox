@@ -5,6 +5,7 @@
 numbers = []
 
 # Input number, continue until invalid 
+
 while True:
     try:
         num = float(input("Input a number (to stop, input non-numeric value): "))

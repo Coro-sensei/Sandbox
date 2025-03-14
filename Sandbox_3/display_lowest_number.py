@@ -15,6 +15,7 @@ while True:
         break  # Stop when the user enters an invalid input
 
 # Print lowest number
+
 if numbers:
         print("The lowest number:", min(numbers))
 else:
