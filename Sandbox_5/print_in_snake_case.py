@@ -2,3 +2,7 @@
 # Example:
 # Input: jUAn DEla CrUZ
 # Output: juan_dela_cruz
+
+# Input name 
+# Convert to snake casing 
+# Print the result

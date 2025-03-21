@@ -2,3 +2,7 @@
 # Example:
 # Input: jUAn DEla CrUZ
 # Output: JuanDelaCruz 
+
+# Input name in incorrect casing
+# Convert to pascal casing
+# Print the result
