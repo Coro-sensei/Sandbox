@@ -2,3 +2,7 @@
 # Example:
 # Input: We will weather the weather whatever the weather whether we like it or not
 # Output: 14
+
+# Input a complete statement
+# Count the numbers in the input 
+# Print the result 
