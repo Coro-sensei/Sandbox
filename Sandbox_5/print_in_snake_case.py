@@ -4,5 +4,9 @@
 # Output: juan_dela_cruz
 
 # Input name 
+name_of_user = input("Enter your name: ")
+
 # Convert to snake casing 
+snake_cased = name_of_user.lower().replace(" ", "_")
+
 # Print the result
