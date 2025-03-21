@@ -2,3 +2,11 @@
 # Example:
 # Input: Juan Dela Cruz
 # Output: juan dela cruz
+
+# Input the name 
+name_of_user = input("Enter name: ")
+
+# Conversion to lower case
+lower_cased = name_of_user.lower()
+
+# Print the converted name
