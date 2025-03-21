@@ -4,5 +4,10 @@
 # Output: Juan Dela Cruz
 
 # Input the name 
+name_of_user = input("Enter name: ")
+
 # Remove the several spaces 
+removed_spaces = name_of_user.lstrip()
+
 # Print the result
+print("Name: ", removed_spaces)
