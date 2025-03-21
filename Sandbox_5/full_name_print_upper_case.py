@@ -4,5 +4,9 @@
 # Output: JUAN DELA CRUZ
 
 # Input the name 
+name_of_user = input("Enter name: ")
+
 # Conversion to uppercase
+upper_cased = name_of_user.upper()
+
 # Print the conversion
