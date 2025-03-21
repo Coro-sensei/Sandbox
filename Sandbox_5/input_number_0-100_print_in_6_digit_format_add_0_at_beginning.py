@@ -2,3 +2,7 @@
 # Example: 
 # Input: 143
 # Output: 000143
+
+# Input 0-1000 
+# Convert to a 6 digit format
+# Print the  result
