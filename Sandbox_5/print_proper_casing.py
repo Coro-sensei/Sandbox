@@ -7,6 +7,7 @@
 name_of_user = input("Enter name: ")
 
 # Convert to proper casing 
-proper_case_name = name_of_user .title()
+proper_case_name = name_of_user.title()
 
 # Print with proper casing
+print("Name in proper case: ", proper_case_name)
