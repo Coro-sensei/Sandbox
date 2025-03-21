@@ -7,6 +7,7 @@
 statement_of_user = input("Enter your statement: ")
 
 # Count the numbers in the input
-count_letters_statement = len(statement_of_user.split()) 
+count_words_statement = len(statement_of_user.split()) 
 
 # Print the result 
+print("How many words in your statement: ", count_words_statement)
