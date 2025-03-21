@@ -2,3 +2,7 @@
 # Example:
 # Input: Juan Dela Cruz
 # Output: JUAN DELA CRUZ
+
+# Input the name 
+# Conversion to uppercase
+# Print the conversion
