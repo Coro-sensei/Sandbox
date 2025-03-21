@@ -10,4 +10,4 @@ name_of_user = input("Enter your name: ")
 pascal_cased = name_of_user.title().replace(" ", "")
 
 # Print the result
-print("Name in pascal case: ", pascal_cased)
+print("Name in PascalCase: ", pascal_cased)
