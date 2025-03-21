@@ -2,3 +2,7 @@
 # Example: 
 # Input:          Juan Dela Cruz
 # Output: Juan Dela Cruz
+
+# Input the name 
+# Remove the several spaces 
+# Print the result
