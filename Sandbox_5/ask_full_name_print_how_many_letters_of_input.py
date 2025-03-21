@@ -10,4 +10,4 @@ name_of_user = input("Enter name: ")
 characters = len(name_of_user)
 
 # Print the result 
-
+print("Number of characters in your name: ", characters)
