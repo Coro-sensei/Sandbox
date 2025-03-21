@@ -10,3 +10,4 @@ name_of_user = input("Enter name: ")
 lower_cased = name_of_user.lower()
 
 # Print the converted name
+print("Name in lowercase: ", lower_cased)
