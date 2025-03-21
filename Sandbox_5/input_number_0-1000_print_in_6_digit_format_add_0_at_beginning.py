@@ -4,9 +4,10 @@
 # Output: 000143
 
 # Input 0-1000 
-numbers = float(input)("Numbers inputted: ")
+numbers = input("Numbers inputted: ")
 
 # Convert to a 6 digit format
 six_digit_format = numbers.zfill(6)
 
 # Print the  result
+print("Numbers in 6-digit format: ", six_digit_format)
