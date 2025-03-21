@@ -4,5 +4,10 @@
 # Output: 14 
 
 # Input name 
+name_of_user = input("Enter name: ")
+
 # Count the characters used in the name
+characters = len(name_of_user)
+
 # Print the result 
+
