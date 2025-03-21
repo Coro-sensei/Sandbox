@@ -3,3 +3,6 @@
 # Input: Juan Dela Cruz
 # Output: 14 
 
+# Input name 
+# Count the characters used in the name
+# Print the result 
