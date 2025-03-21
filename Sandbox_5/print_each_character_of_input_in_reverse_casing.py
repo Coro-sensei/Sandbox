@@ -10,3 +10,4 @@ name_of_user = input("Enter name: ")
 inverse_casing = name_of_user.swapcase()
 
 # Print the reverse incorrect casing
+print("Name in reverse casing: ", inverse_casing)
