@@ -4,5 +4,9 @@
 # Output: Juan Dela Cruz
 
 # Input name with incorrect casing
+name_of_user = input("Enter name: ")
+
 # Convert to proper casing 
+proper_case_name = name_of_user .title()
+
 # Print with proper casing
