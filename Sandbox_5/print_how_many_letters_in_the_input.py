@@ -4,5 +4,9 @@
 # Output: 14
 
 # Input a complete statement
-# Count the numbers in the input 
+statement_of_user = input("Enter your statement: ")
+
+# Count the numbers in the input
+count_letters_statement = len(statement_of_user.split()) 
+
 # Print the result 
