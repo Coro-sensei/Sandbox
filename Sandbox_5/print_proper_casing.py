@@ -2,3 +2,7 @@
 # Example:
 # Input: jUAn DEla CrUZ
 # Output: Juan Dela Cruz
+
+# Input name with incorrect casing
+# Convert to proper casing 
+# Print with proper casing
