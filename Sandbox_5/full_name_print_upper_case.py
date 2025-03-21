@@ -10,3 +10,4 @@ name_of_user = input("Enter name: ")
 upper_cased = name_of_user.upper()
 
 # Print the conversion
+print("Name in uppercase:", upper_cased)  
